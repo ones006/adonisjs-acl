@@ -1,5 +1,5 @@
 {
-  "name": "@oneslynx/adonisjs-acl",
+  "name": "@ones006/adonisjs-acl",
   "version": "1.0.1",
   "description": "Role & Permission support for Adonisjs v6",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "keywords": [
     "adonisjs",
-    "adonisjs5",
+    "adonisjs6",
     "role",
     "permission",
     "access",
@@ -26,12 +26,13 @@
   ],
   "author": "Oneslynx <ones006@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "@adonisjs/auth": "^8.1.0"
   },
   "devDependencies": {
+    "@adonisjs/auth": "^8.1.0",
     "@adonisjs/core": ">=5.0.0",
-    "@adonisjs/lucid": "^17.2.0",
+    "@adonisjs/lucid": "^18.0.0",
     "@adonisjs/mrm-preset": "^5.0.3",
     "@types/node": "^14.14.28",
     "copyfiles": "^2.4.1",
